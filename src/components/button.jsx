@@ -1,5 +1,5 @@
-const Button = ({ text, bgButton }) => {
-	return <button className={`p-2 ${bgButton} text-white rounded-md`}>{text}</button>;
+const Button = ({ text, styleButton }) => {
+	return <button className={`p-2 ${styleButton} text-white rounded-md`}>{text}</button>;
 };
 
 export default Button;

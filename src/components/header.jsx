@@ -12,15 +12,13 @@ const Header = () => {
 		namePage = pathName;
 	}
 	return (
-		<header className="flex justify-between items-center mb-9">
-			<div className="">
-				<h1 className="text-2xl font-semibold">My Portfolio</h1>
-			</div>
-			<div className="flex items-center gap-3">
+		<header className="flex justify-between items-center mb-9 md:mb-12">
+			<h1 className="text-2xl font-semibold">My Portfolio</h1>
+			<div className="flex items-center gap-2 text-xl font-semibold">
 				<span>
-					<FaHome className="text-xl" />
+					<FaHome />
 				</span>
-				<h1 className="text-xl font-semibold">{namePage}</h1>
+				<h2>{namePage}</h2>
 			</div>
 		</header>
 	);
